@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>[Blog] Selected category | BLOGSITE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Questrial&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='articles.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        /* Rajat i used here samsung like headeing */
+        .samsung{
+            margin-top: 5rem;
+            padding: 8rem;
+            border-radius: 2rem;
+            border: 1px solid #a7a1a1;
+        }
+        .dropdown{
+            border-radius: 8px;
+            background-color: black;
+            pointer-events:none;
+        }
+        .dropbtn{
+            color: white;
+        }
+        a{
+            color: black;
+        }
+        hr{
+            margin:2rem;
+        }
+        .art-title{
+            margin: 0.5rem;
+        }
+        .art-title h3{
+            font-size: 1.5rem;
+        }
+        .art-text{
+            font-size: 16px;
+            padding:0 1rem 0 1rem;
+            text-align: justify;
+        }
+        .art-info{
+            display: flex;
+            justify-content: space-between;
+            margin: 0.5rem;
+            align-items: center;
+        }
+        .switch-category{
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #bebebe;
+            border-radius: 1rem;
+            height: 10rem;
+            width: 15rem;
+        }
+        .sw-cat-list{
+            padding: 0.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .sw-cat-list a{
+            margin: 0.5rem;
+        }
+        .active-cat{
+            pointer-events: none;
+            color:white;
+            background-color: black;
+            height: 1rem;
+            width: auto;
+            padding: 5px 3px;
+            border-radius: 1rem;
+        }
+        .categories{
+            height: auto;
+        }
+        @media screen and (max-width:768px){
+            .switch-category{
+                margin-left: 0rem;
+                height: 10rem;
+                width: 17rem;
+            }
+        }
+    </style>
+    <div class="body-container">
+        <header class="nav-container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <a href="index.html"><h2 class="logo">BLOGSITE</h2></a>
+                </div>
+                <div class="navlist">
+                    <a class="nav-item" href="index.html">Home</a>
+                    <span class="dropdown nav-item black-bg">
+                        <button class="dropbtn">Categories</button>
+                        <span class="dropdown-content">
+                            <a href="read.html">Blog</a>
+                            <a href="read.html">News</a>
+                            <a href="read.html">Info</a>
+                        </span>
+                    </span>
+                    <a class="nav-item" href="contact.html">Contact</a>
+                    <a class="nav-item" href="about.html">About</a>
+                    <a class="nav-item" href="login.html">
+                        <svg class="svg" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3333 14V12.6667C13.3333 11.9594 13.0523 11.2811 12.5522 10.781C12.0521 10.281 11.3739 10 10.6666 10H5.33329C4.62605 10 3.94777 10.281 3.44767 10.781C2.94758 11.2811 2.66663 11.9594 2.66663 12.6667V14" stroke="#535353" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.00004 7.33333C9.4728 7.33333 10.6667 6.13943 10.6667 4.66667C10.6667 3.19391 9.4728 2 8.00004 2C6.52728 2 5.33337 3.19391 5.33337 4.66667C5.33337 6.13943 6.52728 7.33333 8.00004 7.33333Z" stroke="#535353" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Login
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <div class="samsung text-center que-font fw-normal pt-20">
+                <h1 class="samsung-heading">Selected Category (News)</h1>
+            </div>
+            <div class="article-container">
+                <div class="articles">
+                    <a href="article.html" class="article">
+                        <div class="art-img">
+                            <img src="art-img.jpg">
+                        </div>
+                        <span>
+                            <div class="art-title">
+                                <h3>Story behind the Developar company</h3>
+                            </div>
+                            <div class="art-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem debitis inventore 
+                                    quasi libero adipisci, voluptatum magni repellendus consectetur perspiciatis sint 
+                                    doloribus, facere necessitatibus animi repudiandae. Quam harum accusantium 
+                                    consequuntur voluptates.
+                                </p>
+                            </div>
+                            <div class="art-info">
+                                <h5>5 February 2021</h5>
+                                <h4>Aakash</h4>
+                            </div>
+                        </span>
+                    </a>
+
+                    <hr>
+
+                    <a href="article.html" class="article">
+                        <div class="art-img">
+                            <img src="art-img.jpg">
+                        </div>
+                        <span>
+                            <div class="art-title">
+                                <h3>Story behind the Developar company</h3>
+                            </div>
+                            <div class="art-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem debitis inventore 
+                                    quasi libero adipisci, voluptatum magni repellendus consectetur perspiciatis sint 
+                                    doloribus, facere necessitatibus animi repudiandae. Quam harum accusantium 
+                                    consequuntur voluptates.
+                                </p>
+                            </div>
+                            <div class="art-info">
+                                <h5>5 February 2021</h5>
+                                <h4>Aakash</h4>
+                            </div>
+                        </span>
+                    </a>
+
+                    <hr>
+
+                    <a href="article.html" class="article">
+                        <div class="art-img">
+                            <img src="art-img.jpg">
+                        </div>
+                        <span>
+                            <div class="art-title">
+                                <h3>Story behind the Developar company</h3>
+                            </div>
+                            <div class="art-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem debitis inventore 
+                                    quasi libero adipisci, voluptatum magni repellendus consectetur perspiciatis sint 
+                                    doloribus, facere necessitatibus animi repudiandae. Quam harum accusantium 
+                                    consequuntur voluptates.
+                                </p>
+                            </div>
+                            <div class="art-info">
+                                <h5>5 February 2021</h5>
+                                <h4>Aakash</h4>
+                            </div>
+                        </span>
+                    </a>
+
+                    <hr>
+
+                    <a href="article.html" class="article">
+                        <div class="art-img">
+                            <img src="art-img.jpg">
+                        </div>
+                        <span>
+                            <div class="art-title">
+                                <h3>Story behind the Developar company</h3>
+                            </div>
+                            <div class="art-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem debitis inventore 
+                                    quasi libero adipisci, voluptatum magni repellendus consectetur perspiciatis sint 
+                                    doloribus, facere necessitatibus animi repudiandae. Quam harum accusantium 
+                                    consequuntur voluptates.
+                                </p>
+                            </div>
+                            <div class="art-info">
+                                <h5>5 February 2021</h5>
+                                <h4>Aakash</h4>
+                            </div>
+                        </span>
+                    </a>
+
+                    <hr>
+
+                    <a href="article.html" class="article">
+                        <div class="art-img">
+                            <img src="art-img.jpg">
+                        </div>
+                        <span>
+                            <div class="art-title">
+                                <h3>Story behind the Developar company</h3>
+                            </div>
+                            <div class="art-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem debitis inventore 
+                                    quasi libero adipisci, voluptatum magni repellendus consectetur perspiciatis sint 
+                                    doloribus, facere necessitatibus animi repudiandae. Quam harum accusantium 
+                                    consequuntur voluptates.
+                                </p>
+                            </div>
+                            <div class="art-info">
+                                <h5>5 February 2021</h5>
+                                <h4>Aakash</h4>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="side-bar">
+                    <div class="switch-category">
+                        <h3 class="text-center">Switch to</h3>
+                        <div class="sw-cat-list">
+                            <a href="read.html" class="active-cat">Blog</a>
+                            <a href="read.html">Info</a>
+                            <a href="read.html">News</a>
+                        </div>
+                    </div>
+                    <div class="categories">
+                        <h3 class="text-center">Choose your interest</h3>
+                        <div class="category-list">
+                            <a href="index.html" class="active-cat text-center">All</a>
+                            <a href="index.html">Art</a>
+                            <a href="index.html">Business</a>
+                            <a href="index.html">Communication</a>
+                            <a href="index.html">Democracy</a>
+                            <a href="index.html">Electronics</a>
+                            <a href="index.html">Farm & Agricultural</a>
+                            <a href="index.html">Government</a>
+                            <a href="index.html">Housing & loans</a>
+                            <a href="index.html">India</a>
+                            <a href="index.html">J</a>
+                            <a href="index.html">K</a>
+                            <a href="index.html">L</a>
+                            <a href="index.html">M</a>
+                            <a href="index.html">N</a>
+                            <a href="index.html">O</a>
+                            <a href="index.html">P</a>
+                            <a href="index.html">Q</a>
+                            <a href="index.html">R</a>
+                            <a href="index.html">S</a>
+                            <a href="index.html">T</a>
+                            <a href="index.html">U</a>
+                            <a href="index.html">V</a>
+                            <a href="index.html">W</a>
+                            <a href="index.html">X</a>
+                            <a href="index.html">Y</a>
+                            <a href="index.html">Z</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </main>
+    </div>
+</body>
+</html>

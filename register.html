@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Register | BLOGSITE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Questrial&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="body-container">
+        <header class="nav-container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <a href="index.html"><h2 class="logo">BLOGSITE</h2></a>
+                </div>
+                <div class="navlist">
+                    <a class="nav-item" href="index.html">Home</a>
+                    <span class="dropdown nav-item">
+                        <button class="dropbtn">Categories</button>
+                        <span class="dropdown-content">
+                          <a href="read.html">Blog</a>
+                          <a href="read.html">News</a>
+                          <a href="read.html">Info</a>
+                        </span>
+                    </span>
+                    <a class="nav-item" href="contact.html">Contact</a>
+                    <a class="nav-item" href="about.html">About</a>
+                    <a class="nav-item active" href="login.html">
+                        <svg class="svg" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3333 14V12.6667C13.3333 11.9594 13.0523 11.2811 12.5522 10.781C12.0521 10.281 11.3739 10 10.6666 10H5.33329C4.62605 10 3.94777 10.281 3.44767 10.781C2.94758 11.2811 2.66663 11.9594 2.66663 12.6667V14" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.00004 7.33333C9.4728 7.33333 10.6667 6.13943 10.6667 4.66667C10.6667 3.19391 9.4728 2 8.00004 2C6.52728 2 5.33337 3.19391 5.33337 4.66667C5.33337 6.13943 6.52728 7.33333 8.00004 7.33333Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Login
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="login-page">
+            <div class="bg">
+                <form class="login-form">
+                    <button class="button1">Login with google</button>
+                    <h3>or</h3>
+                    <hr>
+                    <input type="text" placeholder="First Name" /><br>
+                    <input type="text" placeholder="Last Name" /><br>
+                    <input type="mail" placeholder="Email" /><br>
+                    <input type="password" placeholder="Password" /><br>
+                    <button class="button2">
+                        Register
+                    </button>
+                </form>
+                <div class="register-ref">
+                    <p>Already have an account? <a href="login.html">Login now</a></p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

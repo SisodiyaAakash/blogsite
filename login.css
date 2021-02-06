@@ -1,0 +1,52 @@
+.bg{
+    background-color: #dddddd;
+    width: 30rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.login-page{
+    height: 90vh;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    padding: 1rem;
+    align-self: center;
+}
+.login-page a{
+    color: royalblue;
+}
+
+.login-form input, .login-form textarea{
+    text-align: center;
+    margin: 3px 18px;
+    width: 15rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 2rem;
+}
+.login-form input{
+    height:2.5rem;
+}
+::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.login-form button{
+    background-color: white;
+    border-radius: 2rem;
+    border: none;
+    height: 2rem;
+    margin-top: 2rem;
+    width: 15rem;
+}
+@media screen and (max-width:768px){
+    .bg{
+        width: 20rem;
+    }
+}
